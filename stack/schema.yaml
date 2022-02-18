@@ -360,7 +360,9 @@ variables:
 
   user_ocid:
     visible: true
+    required: true
     default: ${current_user_ocid}
+
   fingerprint:
     visible: false
   dns_label:
