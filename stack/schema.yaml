@@ -359,6 +359,8 @@ variables:
 
 
   user_ocid:
+    title: User's OCID (do not change) 
+    description: DO NOT CHANGE 
     visible: true
     required: true
     default: ${current_user_ocid}
